@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 MAINTAINER Josh Cox "josh at webhosting coop"
-ENV DOCKER_UBUNTU_UPDATED 20160627
+ENV DOCKER_UBUNTU_UPDATED 20160704
 
 RUN echo 'APT::Install-Recommends 0;' >> /etc/apt/apt.conf.d/01norecommends \
  && echo 'APT::Install-Suggests 0;' >> /etc/apt/apt.conf.d/01norecommends \
